@@ -1,0 +1,31 @@
+{
+  "name": "didyoumean",
+  "version": "0.5.0",
+  "description": "DidYouMean cli version",
+  "bin": {
+    "dym": "./main.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MuhammadRestu999/DidYouMean-cli.git"
+  },
+  "keywords": [
+    "didyoumean",
+    "dym",
+    "didyoumean-cli",
+    "dym-cli"
+  ],
+  "author": "Restu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MuhammadRestu999/DidYouMean-cli/issues"
+  },
+  "homepage": "https://github.com/MuhammadRestu999/DidYouMean-cli#readme",
+  "dependencies": {
+    "didyoumean": "^1.2.2",
+    "update-notifier": "^6.0.2"
+  }
+}
