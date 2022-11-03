@@ -1,5 +1,5 @@
 {
-  "name": "didyoumean",
+  "name": "didyoumean-cli",
   "version": "1.0.0",
   "description": "DidYouMean cli version",
   "bin": {
