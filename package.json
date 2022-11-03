@@ -1,6 +1,6 @@
 {
   "name": "didyoumean",
-  "version": "0.5.0",
+  "version": "1.0.0",
   "description": "DidYouMean cli version",
   "bin": {
     "dym": "./main.js"
