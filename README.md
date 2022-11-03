@@ -50,7 +50,7 @@ Options are set on the dym arguments. You may change them at any time.
 Special thanks
 --------------
 - [dcporter](https://github.com/dcporter): for [didyoumean.js](https://github.com/dcporter/didyoumean.js)
-- [yeoman](https://github.com/yeoman): [update-notifier](https://github.com/yeoman/update-notifier)
+- [yeoman](https://github.com/yeoman): for [update-notifier](https://github.com/yeoman/update-notifier)
 
 
 License
