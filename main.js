@@ -58,7 +58,7 @@ ${options_list.map(([name, desc]) => "    " + (Array.isArray(name) ? name.map(v 
 
     if(file.endsWith(".json") && !Array.isArray(content)) return console.log(hint);
     if(file.endsWith(".txt")) {
-      if(content.includes("\n")) content = content.split("\n");
+      if(content.includes("\n") && content.split("\n")[1]) content = content.split("\n");
       else content = content.split(", ");
     };
 
