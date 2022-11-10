@@ -10,7 +10,9 @@
     updateNotifier({
       updateCheckInterval: 0,
       pkg: package
-    }).notify();
+    }).notify({
+      isGlobal: true
+    });
 
     let [, cmd, text, file, ...options] = process.argv;
     cmd = cmd.split("/").at(-1);
