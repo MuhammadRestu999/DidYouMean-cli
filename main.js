@@ -46,7 +46,7 @@ ${options_list.map(([name, desc]) => "    " + (Array.isArray(name) ? name.map(v 
       ["list 1", "list 2", "list 3"]
 
   Example:
-    $ ${cmd} "Hello worls" example.txt --cs
+    $ ${cmd} "Hello world" example.txt --cs
     Hello world
 `;
 
