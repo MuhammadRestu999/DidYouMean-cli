@@ -2,6 +2,9 @@
 
 (async function() {
   const package = require("./package");
+  let [, cmd, text, file, ...options] = process.argv;
+  cmd = cmd.split("/").at(-1);
+
   try {
     const dym = require("didyoumean");
     const updateNotifier = (await import("update-notifier")).default;
@@ -13,9 +16,6 @@
     }).notify({
       isGlobal: true
     });
-
-    let [, cmd, text, file, ...options] = process.argv;
-    cmd = cmd.split("/").at(-1);
 
     const options_list = [
       [
